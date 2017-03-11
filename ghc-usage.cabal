@@ -3,6 +3,13 @@ version:             0.1.0.0
 license:             BSD3
 author:              Edward Z. Yang
 maintainer:          ezyang@cs.stanford.edu
+synopsis:            Print minimal export lists
+description:         A frontend plugin for computing the minimal export list
+                     of a module or signature within a package.  This can
+                     be used in conjunction with Backpack to easily determine
+                     the true set of identifiers which are required from a
+                     signature, so that the requirement can be pared down
+                     to precisely what is required.
 build-type:          Simple
 cabal-version:       >=1.10
 
