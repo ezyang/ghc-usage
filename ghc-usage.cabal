@@ -8,7 +8,7 @@ cabal-version:       >=1.10
 
 library
   exposed-modules:     GhcUsage
-  build-depends:       base, ghc >= 8.0, containers
+  build-depends:       base, ghc >= 8.1, containers
   default-language:    Haskell2010
 
 executable ghc-usage

@@ -35,7 +35,7 @@ usage _flags args = do
     when (failed ok_flag) (liftIO $ exitWith (ExitFailure 1))
     hsc_env <- GHC.getSession
     let ifaces = map hm_iface
-               . eltsUDFM
+               . eltsHpt
                $ hsc_HPT hsc_env
         usages = Map.unionsWith unionUniqDSets
                . map usageModIface
