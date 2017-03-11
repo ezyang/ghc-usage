@@ -22,7 +22,9 @@ source-repository head
 
 library
   exposed-modules:     GhcUsage
-  build-depends:       base, ghc >= 8.1, containers
+  build-depends:       base >= 4.10 && < 4.11,
+                       ghc  >= 8.1  && < 8.3,
+                       containers
   default-language:    Haskell2010
 
 executable ghc-usage
