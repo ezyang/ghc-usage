@@ -1,6 +1,7 @@
 name:                ghc-usage
 version:             0.1.0.0
 license:             BSD3
+license-file:        LICENSE
 author:              Edward Z. Yang
 maintainer:          ezyang@cs.stanford.edu
 synopsis:            Print minimal export lists
