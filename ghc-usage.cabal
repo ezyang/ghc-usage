@@ -10,3 +10,8 @@ library
   exposed-modules:     GhcUsage
   build-depends:       base, ghc >= 8.0, containers
   default-language:    Haskell2010
+
+executable ghc-usage
+  main-is:             GhcUsageWrapper.hs
+  build-depends:       base, ghc-paths, unix
+  default-language:    Haskell2010
